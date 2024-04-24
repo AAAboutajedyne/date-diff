@@ -25,3 +25,6 @@ Or
 ```
 
 Open http://localhost:3000 with your browser to see the result.
+
+## Configuration
+- to change the backend API URL, check date-diff-app/.env file 
