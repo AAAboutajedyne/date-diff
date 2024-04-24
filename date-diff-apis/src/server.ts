@@ -10,7 +10,7 @@ app.use(morgan("dev"))
 app.use(express.json()) 
 
 app.get("/current-date", (req, res, next) => {
-  res.status(200).json({ currentDate: new Date(2024, 3, 22) })
+  res.status(200).json({ currentDate: new Date() })
 })
 
 export default app;
